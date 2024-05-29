@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+.App {
+  font-family: 'Actor', sans-serif;
+  font-weight: 500;
+}
+
+.App-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  padding: 30px 30px 0 30px;
+  width: 90vw;
+  height: 90vh;
+  font-size: calc(10px + 2vmin);
+  background: rgba(135, 206, 235, 0.2);
+  border: 2px dashed #005477;
+  border-radius: 24px;
+}
+
+p {
+  color: #005477;
+}
+.App-link {
+  color: #61dafb;
+}
+
+#image-list {
+  max-height: 35rem;
+}
+
+#image-list > * {
+  flex-wrap: wrap;
+  font-size: 1ch
+}
+
+#image-list > * > img {
+  width: 10rem;
+  height: auto;
+}
+
+#currentImage {
+  width: auto;
+  height: 10rem;
+}
+
+.save-btn,
+.view-image-btn {
+  color: #005477;
+  background-color: #ffffff00;
+  cursor: pointer;
+  padding: 8px 1rem;
+  display: inline-block;
+  line-height: 2em;
+  outline: none;
+  position: relative;
+  font-size: 18px;
+  border: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.save-btn:after,
+.view-image-btn:after {
+  content: '';
+  position: absolute;
+  width: 85%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 10px;
+  left: 15px;
+  background-color: #005477;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.save-btn:hover:after,
+.save-btn.hover:after,
+.view-image-btn:hover:after,
+.view-image-btn.hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+/* .close-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #ffffff;
+  background-color: #ffffff00;
+  cursor: pointer;
+  padding: 8px 1rem;
+  display: inline-block;
+  line-height: 2em;
+  text-transform: uppercase;
+  outline: none;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  text-decoration: underline 2px;
+  text-underline-offset: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.close-btn:hover,
+.close-btn.hover {
+  color: #005477;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #ffffff;
+  text-decoration: none;
+  border-radius: 15px 15px 15px 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+} */
+
+#dropdown-basic-button,
+.upload-btn {
+  cursor: pointer;
+  padding: 8px 1rem;
+  display: inline-block;
+  line-height: 2em;
+  outline: none;
+  position: relative;
+  font-size: 18px;
+  border: none;
+  background-color: #0071a1;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#dropdown-basic-button:hover,
+#dropdown-basic-button.hover,
+.upload-btn:hover,
+.upload-btn.hover {
+  background-color: #004666;
+}
+
+
+#dropdown-split-basic {
+  cursor: pointer;
+  padding: 0 5px 0 5px;
+  border: solid 1px #005477;
+  background-color: #ffffff;
+  color: #005477;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#dropdown-split-basic:hover,
+#dropdown-split-basic.hover {
+  background-color: #EDEDED;
+}
+
+#dropdown-basic-button::after,
+#dropdown-split-basic::after {
+  display: none;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom checkbox appearance */
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    padding: 2px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 1.5px solid #005477;
+    border-radius: 3px;
+}
+
+input[type="checkbox"]:checked{
+  background-color: #005477;
+}
+
+input[type="checkbox"]:focus{
+  outline: none !important;
+}
+.dropdown-item {
+  color: #005477 !important;
+}
+
+.dropdown-item:focus {
+  color: #ffffff !important;
+  background-color: #005477 !important;
+}
