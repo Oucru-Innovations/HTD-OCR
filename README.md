@@ -41,6 +41,12 @@ To install local or deployed application, the following steps should be done:
 
 ## Installations
 
+### Using Docker
+
+```bash
+docker build -t docr-handwriting-pipeline
+```
+
 First we need to update packages and install python3-pip:
 
 ```
