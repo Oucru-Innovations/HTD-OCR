@@ -1,0 +1,31 @@
+name: docr-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - pillow
+  - h5py
+  - cython
+  - pyyaml
+  - packaging
+  - setuptools
+  - wheel
+  - tqdm
+  - opencv
+  - pytorch=2.0.0
+  - torchvision=0.15.0
+  - cudatoolkit=11.8
+  - pip:
+      - tensorboard
+      - fvcore
+      - 'git+https://github.com/facebookresearch/fvcore'

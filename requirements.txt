@@ -1,0 +1,92 @@
+beautifulsoup4
+boto
+dash
+dash-core-components
+dash-html-components
+dash-renderer
+dash-table
+datasets
+decorator
+docutils
+einops
+flask
+flask-compress
+flask-cors
+glob2
+# gmpy2
+google-auth
+google-auth-oauthlib
+google-pasta
+h5py
+html5lib
+huggingface-hub
+hydra-core
+hypothesis
+idna
+imageio
+imagesize
+# imantics
+# imutils
+intervaltree
+jinja2
+jiwer
+joblib
+jsonschema
+keras
+keras-preprocessing
+keyring
+kiwisolver
+lazy-object-proxy
+lmdb
+matplotlib
+natsort
+nbconvert
+nbformat
+networkx
+nltk
+notebook
+# numba==0.50.1
+# numpy
+numpydoc
+oauthlib
+opencv-python
+openpyxl
+opt-einsum
+pandas==1.4.3
+# pillow
+plotly
+protobuf
+psutil
+pyarrow
+pytest
+pytz
+pywavelets
+pyxdg
+pyyaml
+requests
+requests-oauthlib
+responses
+scikit-image
+scikit-learn
+scipy
+seaborn
+setuptools
+sphinx
+sqlalchemy
+statsmodels
+sympy
+# tensorboard
+tensorboard-data-server
+tensorboard-plugin-wit
+# tensorflow
+# tensorflow-estimator==0.37.0
+# tensorflow-io-gcs-filesystem==0.37.0
+testpath
+timm
+tokenizers
+# torch
+# torchaudio
+# torchvision
+tornado
+tqdm
+transformers
